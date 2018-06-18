@@ -2,10 +2,10 @@
 
 namespace Endeavors\Interoperability\Services;
 
-use Endeavors\Contracts\IService;
+use Endeavors\Contracts\Interoperability\IService;
 
 class MaxMD implements IService
-{    
+{
     public function name()
     {
         return "MaxMD";
