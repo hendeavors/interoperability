@@ -1,0 +1,46 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "244d1ed51adad46e6663b8e0157a8e88",
+    "packages": [
+        {
+            "name": "endeavors/contracts",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hendeavors/contracts.git",
+                "reference": "362029b447b979d7daad345e3fa3462f97438786"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Endeavors\\Contracts\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Adam Rodriguez",
+                    "email": "adam_rodriguez@bitbucket.org"
+                }
+            ],
+            "description": "Independent contracts package",
+            "time": "2018-06-18T22:22:45+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "endeavors/contracts": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

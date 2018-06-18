@@ -1,0 +1,27 @@
+{
+    "name": "endeavors/Interoperability",
+    "description": "The Interoperability package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adam Rodriguez",
+            "email": "adam_rodriguez@bitbucket.org"
+        }
+    ],
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/hendeavors/contracts.git"
+        }
+    ],
+    "require": {
+        "endeavors/contracts":"dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Endeavors\\Interoperability\\": "src/"
+        }
+    }
+}
